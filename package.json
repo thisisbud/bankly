@@ -1,0 +1,11 @@
+{
+  "name": "bud-frontend-developer-exercise",
+  "version": "1.0.0",
+  "description": "Frontend developer excerise for frontend candidates at Bud.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
