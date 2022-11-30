@@ -2,7 +2,7 @@ import * as React from 'react'
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
 import AppLayout from './components/app-layout'
 import { theme } from './utils/theme'
-import Account from './views/account'
+import Home from './views/home'
 
 export const GlobalAppStyle = createGlobalStyle`
   *,
@@ -14,17 +14,18 @@ export const GlobalAppStyle = createGlobalStyle`
   body {
     font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     font-size: 1rem;
-    background-color: white;
-    color: black;
+    line-height: 1.5;
+    background-color: ${({ theme }) => theme.backgroundColor};
+    color: ${({ theme }) => theme.colorTextDefault};
     margin: 0;
   }
 `
 
 const StyledApp = styled.div`
-  margin: 0 auto;
+  margin: 0 auto 24px auto;
 
   > * + * {
-    margin-top: 20px;
+    margin-top: 24px;
   }
 `
 
@@ -35,7 +36,7 @@ export default function App (): React.ReactElement {
         <GlobalAppStyle/>
         <StyledApp>
           <AppLayout>
-            <Account/>
+            <Home/>
           </AppLayout>
         </StyledApp>
       </ThemeProvider>
