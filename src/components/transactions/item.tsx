@@ -1,40 +1,31 @@
 import * as React from 'react'
-import Avatar from '../avatar'
+import Merchant from './merchant'
+
+import type { Transaction } from '../../types'
 
 type Props = {
-  transaction: any
+  transaction: Transaction
 }
 
 export default function TransactionItem (props: Props): React.ReactElement {
   const { transaction } = props
 
-  const currencyValue = new Intl.NumberFormat('en-GB', {
-    style: 'currency',
-    currency: 'GBP',
-  }).format(transaction.amount.value);
-
-  const dateValue = new Intl.DateTimeFormat('en-GB', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  }).format(new Date(transaction.date))
-
   return (
     <tr>
       <td>
         <div className='transaction-detail'>
-          <Avatar/>
+          <Merchant/>
           <div className='transaction-description'>
             {transaction.description}
-            <div>{dateValue}</div>
+            <div className='transaction-category'>{transaction.category}</div>
           </div>
         </div>
       </td>
       <td>
-        <div className='transaction-category'>{transaction.category}</div>
+        <div>{transaction.date}</div>
       </td>
       <td className='transaction-amount'>
-        <div className='amount'>{currencyValue}</div>
+        <div className='amount'>{transaction.amount.value}</div>
       </td>
     </tr>
   )
