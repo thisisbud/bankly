@@ -1,22 +1,16 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import Constrictor from '../constrictor'
+import Logo from '../logo'
 
 const StyledHeader = styled.header`
   background: ${props => props.theme.backgroundColor};
   color: white;
+  border-bottom: 1px solid #1E1E27;
 
   nav {
     padding: 20px 0;
-    border-bottom: 1px solid #424242;
-  }
-  aside {
-    padding: 60px 0;
-
-    h1 {
-      font-size: ${props => props.theme.fontSizeLarge};
-      margin:0;
-    }
+    border-bottom: 1px solid #1E1E27;
   }
 `
 
@@ -26,14 +20,9 @@ export default function AppHeader(): React.ReactElement {
     <StyledHeader>
       <nav>
         <Constrictor>
-          Logo
+          <Logo/>
         </Constrictor>
       </nav>
-      <Constrictor>
-        <aside>
-          <h1>Welcome back!</h1>
-        </aside>
-      </Constrictor>
     </StyledHeader>
   )
 }
