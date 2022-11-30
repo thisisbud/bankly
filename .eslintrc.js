@@ -30,6 +30,7 @@ module.exports = {
       },
     ],
     'react/jsx-indent-props': ['error', 2],
+    "@typescript-eslint/consistent-type-imports": "error",
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/object-curly-spacing': [
       'error', 'always', { arraysInObjects: false },
