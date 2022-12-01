@@ -19,12 +19,12 @@ export default function Home(): React.ReactElement {
   }
 
   return (
-    <Constrictor>
+    <>
       {(busyFetchingAccounts || busyFetchingTransactions) ? 'Loading...' : (
         <>
-          <h3>Your accounts</h3>
+          <h1>Your accounts</h1>
           <Accounts accounts={accounts} />
-          <h3>Transaction history</h3>
+          <h1>Transaction history</h1>
           <Tabs activeTab={activeTab} onChange={onTabChange}>
             <Tab value='expenses'>Expenses</Tab>
             <Tab value='income'>Income</Tab>
@@ -32,6 +32,6 @@ export default function Home(): React.ReactElement {
           <Transactions transactions={transactions} />
         </>
       )}
-    </Constrictor>
+    </>
   )
 }

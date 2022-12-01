@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
-import AppLayout from './components/app-layout'
 import { theme } from './utils/theme'
 import Home from './views/home'
 
@@ -22,11 +21,9 @@ export const GlobalAppStyle = createGlobalStyle`
 `
 
 const StyledApp = styled.div`
-  margin: 0 auto 24px auto;
-
-  > * + * {
-    margin-top: 24px;
-  }
+  max-width: 1000px;
+  padding: 0 24px;
+  margin: 0 auto;
 `
 
 export default function App (): React.ReactElement {
@@ -35,9 +32,7 @@ export default function App (): React.ReactElement {
       <ThemeProvider theme={theme}>
         <GlobalAppStyle/>
         <StyledApp>
-          <AppLayout>
-            <Home/>
-          </AppLayout>
+          <Home/>
         </StyledApp>
       </ThemeProvider>
     </React.Fragment>
