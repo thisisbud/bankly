@@ -5,7 +5,8 @@ The Bud exercise for FE candidates.
 
 #### Prerequisites:
 
-- Node
+- Node 18 or greater
+- NPM 8 or greater
 
 #### Dependencies
 
