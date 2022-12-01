@@ -14,26 +14,31 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/recommended'
       ],
-      parserOptions: {
-        project: ['./tsconfig.json']
+      rules: {
+        "@typescript-eslint/consistent-type-imports": "error",
+        '@typescript-eslint/indent': ['error', 2],
+        '@typescript-eslint/object-curly-spacing': [
+          'error', 'always', { arraysInObjects: false },
+        ]
+      }
+    },
+    {
+      files: ['*.tsx'],
+      rules: {
+        'react/jsx-indent': [
+          'error', 2, {
+            checkAttributes: true,
+            indentLogicalExpressions: true,
+          },
+        ],
+        'react/jsx-indent-props': ['error', 2],
       }
     }
   ],
+  parserOptions: {
+    project: ['./tsconfig.json']
+  },
   plugins: [
     'react'
-  ],
-  rules: {
-    'react/jsx-indent': [
-      'error', 2, {
-        checkAttributes: true,
-        indentLogicalExpressions: true,
-      },
-    ],
-    'react/jsx-indent-props': ['error', 2],
-    "@typescript-eslint/consistent-type-imports": "error",
-    '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/object-curly-spacing': [
-      'error', 'always', { arraysInObjects: false },
-    ]
-  }
+  ]
 }
