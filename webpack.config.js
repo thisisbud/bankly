@@ -21,15 +21,16 @@ const config = {
   },
   output: {
     path: path.resolve(__dirname, 'app'),
-    filename: '[name].js'
+    filename: 'bundle.js'
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './public/index.html' })
   ],
   resolve: {
     extensions: [
-      '.js', '.ts', '.jsx', '.tsx', '.json'
-    ]
+      '.js', '.ts', '.jsx', '.tsx', '.json',
+    ],
+    modules: ['src', 'node_modules']
   }
 }
 

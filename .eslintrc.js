@@ -8,6 +8,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended'
   ],
+  ignorePatterns: ['**/node_modules/**', '!.*.js'],
   overrides: [
     {
       files: ['*.{ts,tsx}'],
@@ -36,7 +37,8 @@ module.exports = {
     }
   ],
   parserOptions: {
-    project: ['./tsconfig.json']
+    project: ['./tsconfig.json'],
+    sourceType: "module"
   },
   plugins: [
     'react'

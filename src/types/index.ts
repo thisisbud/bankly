@@ -1,3 +1,10 @@
+type Balance = {
+  amount: {
+    currency: string
+    value: number
+  }
+}
+
 export type Transaction = {
   id: string;
   date: string;
@@ -10,11 +17,6 @@ export type Transaction = {
 }
 
 export type Account = {
-  id: string;
+  account_id: string;
   balance: Balance;
-}
-
-interface Balance {
-  amount: number;
-  currency_iso: string;
 }

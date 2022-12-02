@@ -7,9 +7,6 @@
     "jsx": "react",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "rootDirs": [
-      "."
-    ],
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext"

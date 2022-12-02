@@ -5,7 +5,8 @@ import AccountItem from './item'
 import type { Account } from '../../types'
 
 type Props = {
-  accounts: Account[]
+  accounts: Account[],
+  id?: string,
 }
 
 const StyledRoot = styled.div`
@@ -22,20 +23,19 @@ const StyledRoot = styled.div`
     }
   }
 
-  .currency {
+  .total {
     color: #88869F;
     margin-bottom: 8px;
   }
-
 `
 
 export default function Accounts(props: Props): React.ReactElement {
-  const { accounts } = props
+  const { id, accounts } = props
 
   return (
-    <StyledRoot>
-      {accounts.map(function (account) {
-        return <AccountItem account={account} />
+    <StyledRoot id={id}>
+      {accounts.map(function (account, index) {
+        return <AccountItem key={index} account={account} />
       })}
     </StyledRoot>
   )

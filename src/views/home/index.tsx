@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Accounts from '../../components/accounts'
-import Constrictor from '../../components/constrictor'
 import Tabs from '../../components/tabs'
 import Tab from '../../components/tabs/tab'
 import Transactions from '../../components/transactions'
