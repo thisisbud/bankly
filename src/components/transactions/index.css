@@ -1,0 +1,48 @@
+.tabs {
+    margin-top: 1rem;
+}
+
+.tabs__list {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.avatar {
+  user-select: none;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: 2px solid #88869f;
+  background-color: #0e0e11;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+table {
+  background-color: #1e1e27;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+td {
+  padding: 1rem;
+}
+
+th {
+  color: #88869f;
+  border-bottom: 1px solid #323241;
+  padding: 1rem;
+  text-align: left;
+}
+
+.transaction-detail {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1rem;
+}

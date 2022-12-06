@@ -1,0 +1,17 @@
+.accounts {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 1rem;
+}
+
+
+.account {
+    background: #14141a;
+    padding: 2rem;
+    text-align: left;
+}
+
+.total {
+    color: #88869f;
+}
+
