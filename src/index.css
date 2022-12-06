@@ -1,10 +1,22 @@
 :root {
+  --dark-900: #0e0e11;
+  --dark-800: #1e1e27;
+  --light-900: #ffffff;
+  --light-300: #88869f;
+  --link: #646cff;
+
+  --sp-sm: 0.5rem;
+  --sp-md: 1rem;
+  --sp-lg: 1.5rem;
+  --sp-xl: 2rem;
+  --sp-2xl: 3rem;
+
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #0E0E11;
+  background-color: var(--dark-900);
   font-synthesis: none;
   width: 90vw;
   max-width: 800px;
@@ -15,14 +27,14 @@
   -webkit-text-size-adjust: 100%;
   margin-bottom: 2rem;
 }
-i
-a {
+
+i a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--link);
 }
 
 body {
@@ -41,27 +53,27 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
-  color: white;
+  background-color: var(--dark-900);
+  color: var(--light-300);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--link);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 button[data-state="active"] {
-  background-color: rgb(217, 217, 217);
-  color: black;
+  --dark-900: #d9d9d9;
+  --light-300: #000000;
 }
 
 .align-left {
   text-align: left;
 }
 
-.flow>*+*{
-  margin-top:1rem
+.flow > * + * {
+  margin-top: var(--sp-md);
 }
