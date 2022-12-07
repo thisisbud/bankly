@@ -1,3 +1,5 @@
 export const Merchant = ({ name }: { name: string }) => (
-  <div className="avatar">{name.charAt(0)}</div>
+  <div className="avatar" aria-hidden="true">
+    {name.charAt(0)}
+  </div>
 );
