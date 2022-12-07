@@ -5,13 +5,13 @@ import "./index.css";
 import { Transaction } from "./item";
 
 const isExpense = (transaction: TransactionType) =>
-  transaction.amount.value > 0;
-const isIncome = (transaction: TransactionType) => transaction.amount.value < 0;
+  transaction.amount.value < 0;
+const isIncome = (transaction: TransactionType) => transaction.amount.value > 0;
 
 const Expenses = () => {
   return (
     <Tabs.Content className="TabsContent" value="expenses">
-      <table>
+      <table aria-label="Expenses">
         <thead>
           <tr>
             <th>Description</th>
@@ -32,7 +32,7 @@ const Expenses = () => {
 const Income = () => {
   return (
     <Tabs.Content className="TabsContent" value="income">
-      <table>
+      <table aria-label="Income">
         <thead>
           <tr>
             <th>Description</th>
