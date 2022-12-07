@@ -15,7 +15,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--light-900);
   background-color: var(--dark-900);
   font-synthesis: none;
   width: 90vw;
@@ -25,6 +25,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
