@@ -10,43 +10,39 @@ const isIncome = (transaction: TransactionType) => transaction.amount.value > 0;
 
 const Expenses = () => {
   return (
-    <Tabs.Content className="TabsContent" value="expenses">
-      <table aria-label="Expenses">
-        <thead>
-          <tr>
-            <th>Description</th>
-            <th>Date</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          {transactions.filter(isExpense).map((transaction) => (
-            <Transaction transaction={transaction} key={transaction.id} />
-          ))}
-        </tbody>
-      </table>
-    </Tabs.Content>
+    <table aria-label="Expenses">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Date</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        {transactions.filter(isExpense).map((transaction) => (
+          <Transaction transaction={transaction} key={transaction.id} />
+        ))}
+      </tbody>
+    </table>
   );
 };
 
 const Income = () => {
   return (
-    <Tabs.Content className="TabsContent" value="income">
-      <table aria-label="Income">
-        <thead>
-          <tr>
-            <th>Description</th>
-            <th>Date</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          {transactions.filter(isIncome).map((transaction) => (
-            <Transaction transaction={transaction} key={transaction.id} />
-          ))}
-        </tbody>
-      </table>
-    </Tabs.Content>
+    <table aria-label="Income">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Date</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        {transactions.filter(isIncome).map((transaction) => (
+          <Transaction transaction={transaction} key={transaction.id} />
+        ))}
+      </tbody>
+    </table>
   );
 };
 
@@ -59,8 +55,13 @@ export const TransactionHistory = () => {
           <Tabs.Trigger value="expenses">Expenses</Tabs.Trigger>
           <Tabs.Trigger value="income">Income</Tabs.Trigger>
         </Tabs.List>
-        <Expenses />
-        <Income />
+
+        <Tabs.Content className="TabsContent" value="expenses">
+          <Expenses />
+        </Tabs.Content>
+        <Tabs.Content className="TabsContent" value="income">
+          <Income />
+        </Tabs.Content>
       </Tabs.Root>
     </>
   );
