@@ -8,7 +8,7 @@ const duration = isTest ? 0 : 2000;
 const statusCode = 200;
 
 export const handlers = [
-  // this api almost instant
+  // this api is almost instant
   rest.get("/api/accounts", (req, res, ctx) =>
     res(ctx.delay(), ctx.status(statusCode), ctx.json(accounts))
   ),
