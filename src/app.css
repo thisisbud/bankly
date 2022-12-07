@@ -1,12 +1,12 @@
 
 .app__row {
   display: flex;
-  margin-top: 1rem;
-  gap: 1rem;
+  margin-top: var(--sp-md);
+  gap: var(--sp-md);
 }
 
 .logo {
-  height: 1rem;
+  height: var(--sp-md);
   will-change: filter;
 }
 
