@@ -1,11 +1,11 @@
 .app__row {
   display: flex;
-  margin-top: var(--space-md);
-  gap: var(--space-md);
+  margin-top: var(--spacer-medium);
+  gap: var(--spacer-medium);
 }
 
 .logo {
-  height: var(--space-md);
+  height: var(--spacer-medium);
   will-change: filter;
 }
 

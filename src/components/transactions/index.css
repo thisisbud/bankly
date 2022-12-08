@@ -1,20 +1,20 @@
 .tabs {
-  margin-top: var(--space-md);
+  margin-top: var(--spacer-medium);
 }
 
 .tabs__list {
   display: flex;
   align-items: flex-start;
-  gap: var(--space-md);
+  gap: var(--spacer-medium);
 }
 
 .avatar {
   user-select: none;
-  width: var(--space-2xl);
-  height: var(--space-2xl);
-  font-size: var(--space-xl);
+  width: var(--spacer-xxlarge);
+  height: var(--spacer-xxlarge);
+  font-size: var(--font-xlarge);
   font-weight: 600;
-  border-radius: var(--space-sm);
+  border-radius: var(--spacer-smallall);
   border: 2px solid var(--light-300);
   background-color: var(--dark-900);
   text-transform: uppercase;
@@ -25,24 +25,24 @@
 
 table {
   background-color: var(--dark-800);
-  border-radius: var(--space-sm);
+  border-radius: var(--spacer-smallall);
   width: 100%;
   text-align: left;
 }
 
 td {
-  padding: var(--space-md);
+  padding: var(--spacer-medium);
 }
 
 th {
   color: var(--light-900);
   border-bottom: 1px solid var(--light-300);
-  padding: var(--space-md);
+  padding: var(--spacer-medium);
   text-align: left;
 }
 
 .transaction-detail {
   display: grid;
   grid-template-columns: min-content 1fr;
-  gap: var(--space-md);
+  gap: var(--spacer-medium);
 }
