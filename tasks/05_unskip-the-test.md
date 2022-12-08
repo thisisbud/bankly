@@ -8,5 +8,5 @@ Inside [the tractions set suite](/src/components/transactions/index.test.tsx) th
 
 **Why are we asking you to do this?**
 
-- Understanding how test work - especially in regards to when something _feels_ like it should work isn't is a really valuable debugging skill.
+- Understanding how tests work - especially when something _feels_ like it _should work_ but _doesn't_ is a valuable debugging skill.
 - Being able to pick up where someone left off is important.
