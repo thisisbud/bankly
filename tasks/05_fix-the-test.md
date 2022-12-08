@@ -1,4 +1,4 @@
-# Unskip the test
+# Fix the test
 
 Inside [the tractions set suite](/src/components/transactions/index.test.tsx) there's a skipped test because the author couldn't get to pass, can you fix it for them please?
 
