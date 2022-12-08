@@ -4,7 +4,7 @@ Currently, the data being show on screen is functional, but not pretty.
 
 We'd like to format the currencies based on their locale: `510.55` -> `£510.55` for `GBP`.
 
-And instead of `2022-06-24`, please change it to `June 2022`.
+And instead of `2022-06-24`, please change it to `24 June 2022`.
 
 ---
 
