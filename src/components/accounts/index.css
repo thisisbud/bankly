@@ -1,16 +1,15 @@
 .accounts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
-    gap: var(--sp-md)
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  gap: var(--space-md);
 }
 
 .account {
-    background: var(--dark-800);
-    padding: var(--sp-lg);
-    text-align: left;
+  background: var(--dark-800);
+  padding: var(--space-lg);
+  text-align: left;
 }
 
 .total {
-    color: var(--light-300);
+  color: var(--light-300);
 }
-

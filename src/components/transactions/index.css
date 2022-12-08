@@ -1,20 +1,20 @@
 .tabs {
-    margin-top: var(--sp-md);
+  margin-top: var(--space-md);
 }
 
 .tabs__list {
   display: flex;
   align-items: flex-start;
-  gap: var(--sp-md);
+  gap: var(--space-md);
 }
 
 .avatar {
   user-select: none;
-  width: var(--sp-2xl);
-  height: var(--sp-2xl);
-  font-size: var(--sp-xl);
+  width: var(--space-2xl);
+  height: var(--space-2xl);
+  font-size: var(--space-xl);
   font-weight: 600;
-  border-radius: var(--sp-sm);
+  border-radius: var(--space-sm);
   border: 2px solid var(--light-300);
   background-color: var(--dark-900);
   text-transform: uppercase;
@@ -25,24 +25,24 @@
 
 table {
   background-color: var(--dark-800);
-  border-radius: var(--sp-sm);
+  border-radius: var(--space-sm);
   width: 100%;
   text-align: left;
 }
 
 td {
-  padding: var(--sp-md);
+  padding: var(--space-md);
 }
 
 th {
   color: var(--light-900);
   border-bottom: 1px solid var(--light-300);
-  padding: var(--sp-md);
+  padding: var(--space-md);
   text-align: left;
 }
 
 .transaction-detail {
   display: grid;
   grid-template-columns: min-content 1fr;
-  gap: var(--sp-md);
+  gap: var(--space-md);
 }

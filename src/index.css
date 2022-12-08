@@ -5,11 +5,11 @@
   --light-300: #88869f;
   --link: #646cff;
 
-  --sp-sm: 0.5rem;
-  --sp-md: 1rem;
-  --sp-lg: 1.5rem;
-  --sp-xl: 2rem;
-  --sp-2xl: 3rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
 
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -76,5 +76,5 @@ button[data-state="active"] {
 }
 
 .flow > * + * {
-  margin-top: var(--sp-md);
+  margin-top: var(--space-md);
 }
