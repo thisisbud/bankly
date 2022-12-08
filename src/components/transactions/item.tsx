@@ -1,5 +1,5 @@
 import type { Transaction as TransactionType } from "../../../types";
-import { Merchant } from "./merchant";
+import { Avatar } from "./avatar";
 
 type Props = {
   transaction: TransactionType;
@@ -9,7 +9,7 @@ export const Transaction = ({ transaction }: Props) => (
   <tr>
     <td>
       <div className="transaction-detail">
-        <Merchant name={transaction.description} />
+        <Avatar name={transaction.description} />
         <div className="transaction-description">
           {transaction.description}
           <div className="transaction-category">{transaction.category}</div>
