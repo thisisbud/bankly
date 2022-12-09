@@ -1,13 +1,13 @@
-# Bud Frontend Developer Exercise
+# bankly
 
 Heya there! 👋
 
 Welcome to [Bud](https://www.thisisbud.com)'s takehome frontend developer showcase!
 
-> I just wanted to say thank you for interviewing with us! The job hunting process can be a really stressful and anxious time, but I promise you, we don't bite!
+> We just wanted to say thank you for interviewing with us! The job hunting process can be a really stressful and anxious time, but we promise you, we don't bite!
 >
 > If there's anything you need or any accommodations we can make so you feel at ease _please_ let us know and we'll do out best to sort it!
-> ~ _Ollie_
+> ~ _Frontend at Bud_
 
 This is way less of a test with right and wrong answers and more of us looking at:
 

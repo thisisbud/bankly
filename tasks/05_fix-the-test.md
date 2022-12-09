@@ -1,6 +1,6 @@
 # Fix the test
 
-Inside [the tractions set suite](/src/components/transactions/index.test.tsx) there's a skipped test because the author couldn't get to pass, can you fix it for them please?
+Inside [the tractions test suite](/src/components/transactions/index.test.tsx) there's a skipped test because the author couldn't get it to pass, can you fix it for them please?
 
 [React Testing Library documentation.](https://testing-library.com/docs/dom-testing-library/)
 
@@ -8,5 +8,5 @@ Inside [the tractions set suite](/src/components/transactions/index.test.tsx) th
 
 **Why are we asking you to do this?**
 
-- Understanding how tests work - especially when something _feels_ like it _should work_ but _doesn't_ is a valuable debugging skill.
+- We want to see your understanding of how tests work - especially when something _feels_ like it _should work_ but _doesn't_ or is a little unintuitive.
 - Being able to pick up where someone left off is important.

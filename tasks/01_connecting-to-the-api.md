@@ -16,5 +16,5 @@ We'd like you to replace the hardcoded data with api calls to those routes.
 
 **Why are we asking you to do this?**
 
-- We want to see that you can get setup on an unfamiliar project
-- Can work with APIs and React
+- We want to see that you can get setup on an unfamiliar project.
+- We want to see that you can work with APIs and React.
