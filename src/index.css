@@ -1,8 +1,8 @@
 :root {
-  --dark-900: #0e0e11;
-  --dark-800: #1e1e27;
-  --light-900: #ffffff;
-  --light-300: #88869f;
+  --background-900: #0e0e11;
+  --background-800: #1e1e27;
+  --primary-900: #ffffff;
+  --primary-300: #88869f;
   --link: #646cff;
 
   --spacer-small: 0.5rem;
@@ -21,8 +21,8 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: var(--light-900);
-  background-color: var(--dark-900);
+  color: var(--primary-900);
+  background-color: var(--background-900);
   font-synthesis: none;
   width: 90vw;
   max-width: 800px;
@@ -60,8 +60,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--dark-900);
-  color: var(--light-300);
+  background-color: var(--background-900);
+  color: var(--primary-300);
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -73,8 +73,8 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 button[data-state="active"] {
-  --dark-900: #d9d9d9;
-  --light-300: #000000;
+  --background-900: #d9d9d9;
+  --primary-300: #000000;
 }
 
 .align-left {
