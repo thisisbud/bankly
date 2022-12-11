@@ -1,6 +1,6 @@
 # Connecting to the API
 
-Once you're all up and running, the site should look as follows:
+Once you're all up and running, before ay changes have been made - the site should look as follows:
 
 ![](./assets/01.png)
 
