@@ -6,7 +6,7 @@ Welcome to [Bud](https://www.thisisbud.com)'s takehome frontend developer showca
 
 > We just wanted to say thank you for interviewing with us! The job hunting process can be a really stressful and anxious time, but we promise you, we don't bite!
 >
-> If there's anything you need or any accommodations we can make so you feel at ease _please_ let us know and we'll do out best to sort it!
+> If there's anything you need or any accommodations we can make so you feel at ease _please_ let us know and we'll do out best to sort it!  
 > ~ _Frontend at Bud_
 
 This is way less of a test with right and wrong answers and more of us looking at:
@@ -22,6 +22,11 @@ If you're struggling to work out what the "right answer" looks like - please don
 There's a quite a few tasks in there - so please, feel no obligation to do all of them - keep going until you get bored or stuck and just let us know where you get upto.
 
 You can put as much or as little into this as you'd like - so feel free to go a bit wild if you want.
+
+**When you're finished with the exercise, please email your Bud contact with a link to your Github repository, or just attach it as a .zip file.**
+
+Thanks!  
+~ _Frontend at Bud_
 
 ---
 
