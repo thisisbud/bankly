@@ -4,7 +4,7 @@ Well done! As you may have spotted, the transactions API takes a little while to
 
 Please add a loading state for the component - we have an example [loading state component](/src/components/loading/index.tsx) that you can use, or feel free to create your own.
 
-Please write a test, showing the loading state for your component. [Please look at the api tests for a tip if you're unsure on MSW mocking.](/src/api/index.test.tsx)
+Please write a test, showing the loading state for your component. [Please look at the api tests for a tip if you're unsure on MSW mocking.](/src/api/handlers.test.tsx)
 
 ---
 
