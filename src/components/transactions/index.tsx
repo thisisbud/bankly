@@ -4,8 +4,7 @@ import { transactions } from "../../api/data/transactions";
 import "./index.css";
 import { Transaction } from "./item";
 
-const isExpense = (transaction: TransactionType) =>
-  transaction.amount.value < 0;
+const isExpense = (transaction: TransactionType) => transaction.amount.value < 0;
 const isIncome = (transaction: TransactionType) => transaction.amount.value > 0;
 
 const Expenses = () => {
