@@ -1,22 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { setupWorker } from "msw";
+import { setupWorker } from "msw/browser";
 import App from "./app";
 import "./index.css";
 
 import { handlers } from "./api/handlers";
 
-const worker = setupWorker(...handlers);
 
-async function prepare() {
-  if (import.meta.env.DEV) {
-    return worker.start();
+async function enableMocking() {
+  if (process.env.NODE_ENV !== 'development') {
+    return
   }
-  return undefined;
+
+  const worker = setupWorker(...handlers);
+
+  // `worker.start()` returns a Promise that resolves
+  // once the Service Worker is up and ready to intercept requests.
+  return worker.start()
 }
 
-prepare().then(() => ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+enableMocking().then(() => ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-));
+  </React.StrictMode>))
