@@ -7,6 +7,7 @@
     "npm": ">=8.0.0"
   },
   "scripts": {
+    "syncpack": "syncpack",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -33,7 +34,8 @@
     "ts-jest": "^29.0.5",
     "typescript": "^4.9.4",
     "vite": "^4.0.4",
-    "whatwg-fetch": "^3.6.2"
+    "whatwg-fetch": "^3.6.2",
+    "syncpack": "13.0.4"
   },
   "msw": {
     "workerDirectory": "public"
