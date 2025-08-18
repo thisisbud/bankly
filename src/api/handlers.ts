@@ -5,8 +5,6 @@ import { transactions } from "./data/transactions";
 const isTest = process.env.NODE_ENV === "test";
 const duration = isTest ? 0 : 2000;
 
-const statusCode = 200;
-
 export const handlers = [
   // this api is almost instant
   http.get("/api/accounts", async () => {

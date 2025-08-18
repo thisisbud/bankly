@@ -60,5 +60,4 @@ Otherwise, you can get setup 'manually' pretty quickly too!
 
 - `npm run dev` - Starts the vite server at `localhost:5173` (by default).
 - `npm run test` - Runs tests, once.
-- `npm run test:watch` - Runs (and watches) the tests.
 - `npm run test:coverage` - Runs tests and shows the line coverage.
