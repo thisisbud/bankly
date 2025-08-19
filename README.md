@@ -35,7 +35,7 @@ Thanks!
 #### Prerequisites
 
 - A code editor
-- A modern-_ish_ version of npm & node. The repo was created using `v18`.
+- A modern-_ish_ version of npm & node.
 - Docker (but only if you choose to run the app in a [devcontainer](https://code.visualstudio.com/docs/remote/containers))
 
 #### Installation
