@@ -50,7 +50,7 @@ Otherwise, you can get setup 'manually' pretty quickly too!
 4. Type `npm run dev` and you should see a message a little like this in the terminal:
 
 ```bash
-  VITE v4.0.4  ready in 1104 ms
+  VITE v7.1.2  ready in 921 ms
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
