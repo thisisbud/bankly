@@ -3,6 +3,7 @@ import { Transaction } from "../../../types";
 export const transactions: Array<Transaction> = [
   {
     id: "1",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-06-22",
     description: "Max Mustermann",
     category: "income",
@@ -13,6 +14,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "2",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-06-24",
     description: "Sephora",
     category: "shopping",
@@ -23,6 +25,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "3",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-06-25",
     description: "BrewDog Shoreditch",
     category: "entertainment",
@@ -33,6 +36,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "4",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-06-29",
     description: "British Gas",
     category: "bills",
@@ -43,6 +47,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "5",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-06-30",
     description: "Tesco",
     category: "groceries",
@@ -53,6 +58,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "6",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-01",
     description: "Marks & Spencer",
     category: "shopping",
@@ -63,6 +69,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "7",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-02",
     description: "Continente",
     category: "groceries",
@@ -73,6 +80,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "8",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-03",
     description: "Amazon",
     category: "shopping",
@@ -83,6 +91,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "9",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-05",
     description: "Transport for London",
     category: "transport",
@@ -93,6 +102,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "10",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-09",
     description: "Pret a Manger",
     category: "eating_out",
@@ -103,6 +113,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "11",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-06-11",
     description: "Amazon",
     category: "shopping",
@@ -113,6 +124,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "12",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-01",
     description: "Wilko",
     category: "shopping",
@@ -123,6 +135,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "13",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-02",
     description: "Bank",
     category: "income",
@@ -133,6 +146,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "14",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-01",
     description: "Asda",
     category: "shopping",
@@ -143,6 +157,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "15",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-01",
     description: "Uniqlo",
     category: "shopping",
@@ -153,6 +168,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "16",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-02",
     description: "Gaucho",
     category: "eating_out",
@@ -163,6 +179,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "17",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-02",
     description: "John Lewis",
     category: "shopping",
@@ -173,6 +190,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "18",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-03",
     description: "Auchan",
     category: "shopping",
@@ -183,6 +201,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "19",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-03",
     description: "Pact Coffee",
     category: "shopping",
@@ -193,6 +212,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "20",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-03",
     description: "Tesco",
     category: "groceries",
@@ -203,6 +223,7 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "21",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-04",
     description: "Costa Coffee",
     category: "eating_out",
@@ -213,11 +234,265 @@ export const transactions: Array<Transaction> = [
   },
   {
     id: "22",
+    account_id: "78adeb75-bd10-4716-b43e-8203a5d295cc",
     date: "2022-07-04",
     description: "Bet 365",
     category: "gambling",
     amount: {
       value: 80.93,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "22",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2022-07-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "23",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2022-08-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "24",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2022-09-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "25",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2022-10-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "26",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2022-11-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "27",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2022-12-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "28",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-01-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "29",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-02-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "30",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-03-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "31",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-04-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "32",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-05-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "33",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-06-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "34",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-07-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "35",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-08-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "36",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-09-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "37",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-10-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "38",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-11-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "39",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2023-12-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "40",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2024-01-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "41",
+    account_id: "976b32e2-88b4-4429-bceb-2ce1f9434d65",
+    date: "2024-02-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "42",
+    account_id: "5f002a4e-704c-416d-86f1-ca6703622467",
+    date: "2024-02-01",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 1000,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "43",
+    account_id: "5f002a4e-704c-416d-86f1-ca6703622467",
+    date: "2024-06-06",
+    description: "Plumber",
+    category: "banking",
+    amount: {
+      value: 500,
+      currency_iso: "GBP",
+    },
+  },
+  {
+    id: "44",
+    account_id: "5f002a4e-704c-416d-86f1-ca6703622467",
+    date: "2024-06-06",
+    description: "Deposit",
+    category: "banking",
+    amount: {
+      value: 1000,
       currency_iso: "GBP",
     },
   },

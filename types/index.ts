@@ -7,6 +7,7 @@ type Balance = {
 
 export type Transaction = {
   id: string;
+  account_id: string;
   date: string;
   description: string;
   category: string;
@@ -19,4 +20,5 @@ export type Transaction = {
 export type Account = {
   account_id: string;
   balance: Balance;
+  display_name: string;
 };
