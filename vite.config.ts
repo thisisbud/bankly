@@ -9,7 +9,7 @@ export default defineConfig({
         environment: "happy-dom",
         setupFiles: ['./vitest-setup.ts'],
         coverage: {
-            exclude: ["public/mockServiceWorker.js", "vite.config.ts", "src/main.tsx"]
+            exclude: ["public/mockServiceWorker.js", "vite.config.ts", "src/main.tsx", "dist/**"]
         }
     }
 })
