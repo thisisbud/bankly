@@ -34,7 +34,7 @@
     "happy-dom": "20.0.2",
     "syncpack": "13.0.4",
     "typescript": "5.9.2",
-    "vite": "7.1.5",
+    "vite": "7.1.11",
     "vitest": "3.2.4"
   },
   "msw": {
