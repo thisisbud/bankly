@@ -32,7 +32,7 @@
     "@vitejs/plugin-react": "5.0.0",
     "@vitest/coverage-v8": "4.0.10",
     "happy-dom": "20.0.2",
-    "syncpack": "13.0.4",
+    "syncpack": "14.0.0",
     "typescript": "5.9.2",
     "vite": "7.1.11",
     "vitest": "3.2.4"
